@@ -13,19 +13,19 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '22083216'))
-API_HASH = environ.get('API_HASH', 'a4c3ce9493061323cbb5741370aa11f1')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7643029222:AAEy9lNISHcYJkf2ggm4sT5jBcTNpUN2A_w')
+API_ID = int(environ.get('API_ID', '22083216')) 
+API HASH = environ.get('API_HASH', 'a4c3ce9493061323cbb5741370aa11f1'))
+BOT_TOKEN = environ.get('BOT_TOKEN', '8665061977:AAG-DIBxcN8q7fdX0DwMnEsQfe862rSv1n4')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1001944607209').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1489423238').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Morekoushal1444") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ' -1002334972713'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+K2kgCBgaat80YWQ9')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002378611457').split()]
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ' -1003732537266'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/jfjwknxanj')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003756045123').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Koushal:Koushal@koushal.zjd00.mongodb.net/?retryWrites=true&w=majority&appName=Koushal")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Koushal:Koushal@koushal.zjd00.mongodb.net/?appName=Koushal")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Koushal")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
